@@ -4,7 +4,6 @@ This repository evaluates the **stability of LLM reasoning outcomes** under smal
 changes to the input (prompt perturbations). The goal is to measure whether a model’s **final answers**
 remain consistent when the surface form of the prompt changes.
 
-This is a research-oriented framework focused on **robustness and reliability**, not benchmarking.
 
 ---
 
@@ -25,7 +24,6 @@ We then compute:
 - **Structural**: formatting changes and light instruction prefixing
 - **Distractors**: irrelevant context added before/after the question
 
-These perturbations are designed to be simple, transparent, and extensible.
 
 ---
 
