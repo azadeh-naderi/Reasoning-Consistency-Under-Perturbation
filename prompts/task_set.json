@@ -1,0 +1,30 @@
+{
+  "task_set_name": "reasoning_consistency_core_v1",
+  "description": "Original small task set for measuring answer stability under prompt perturbations.",
+  "items": [
+    {
+      "id": "logic_001",
+      "domain": "logic",
+      "prompt": "All A are B. No B are C. If x is an A, can x be a C? Answer yes/no.",
+      "answer_key": "no"
+    },
+    {
+      "id": "math_001",
+      "domain": "math",
+      "prompt": "A price is $80. Apply a 20% discount, then add a 10% tax. What is the final price?",
+      "answer_key": 70.4
+    },
+    {
+      "id": "instr_001",
+      "domain": "instruction",
+      "prompt": "Return only the word 'blue' unless the number 17 is prime. If it is prime, return 'green'.",
+      "answer_key": "green"
+    },
+    {
+      "id": "cs_001",
+      "domain": "commonsense",
+      "prompt": "If you put an ice cube into a hot cup of tea, what happens to the ice cube over time?",
+      "answer_key": "it melts"
+    }
+  ]
+}
